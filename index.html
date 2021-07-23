@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+	</script>
+	<div style="text-align:center;">
+		<h1> Routine manager </h1>
+	</div>
+
+	<div class="content">
+		<h4> Enter your dataset </h4>
+		<h5> Task name </h5> <input type="text" id="name"> 
+		<h5> Due date </h5> <input type="date" id="date">
+		<h5> Time </h5> <input type="time" id="time"> 
+		<h5> Compulsory (yes/no) <input type="checkbox" id="priority"> </h5>
+  </div>
+
+  <div style="text-align:center;"> 
+  <button type="button" onclick="display()"> Sort </button> 
+  <button type="submit" onclick="submit()"> Submit </button>
+  </div>
+   
+  <div class="show">
+	  <table id="table">
+		  <tr>
+			  <td style="width: 5rem; border: 0.1em;"> Name </td>
+			  <td style="width: 5rem; border: 0.1em;"> Task </td>
+			  <td style="width: 5rem; border: 0.1em;"> Date </td>
+		  </tr>
+	  </table>
+  </div>
+
+  <div id="expensor"> <a href="page2.html"> Go to page 2 </a> </div>
+  </body>
+</html>
