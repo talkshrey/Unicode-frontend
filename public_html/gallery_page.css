@@ -1,0 +1,234 @@
+.special{
+margin-top : 75;
+text-align : center;
+font-family :  league-spartan;
+font-size : 45;
+}
+#carousel{
+height:800;
+}
+.company{
+color: black;
+font-size: 40;
+font-family: montserrat;
+position: relative;
+top: 175;
+}
+#kfs_1{
+margin-left:150;
+margin-top:40; 
+width:80%; 
+}
+#kfs_2{
+margin-left:50;
+margin-top:40; 
+width:70%; 
+}
+#sf_1{
+margin-left:120;
+margin-top:40; 
+width:70%;
+}
+#sf_2{
+margin-top:40; 
+width:80%;
+}
+#kyc_1{
+margin-left:120; 
+margin-top:40; 
+width:75%;
+}
+#kyc_2{
+margin-left:10; 
+margin-top:40; 
+width:75%;
+}
+#es_1{
+margin-left:120; 
+margin-top:40; 
+width:75%;
+}
+#es_2{
+margin-left:10; 
+margin-top:40; 
+width:75%;
+}
+#kz_1{
+margin-left:150; 
+margin-top:40; 
+width:75%;
+}
+#kz_2{
+margin-left:50;
+margin-top:40; 
+width:75%;
+}
+#mhrp_1{
+margin-left:150;
+margin-top:70; 
+width:70%;
+}
+#mhrp_2{
+margin-left:10;
+margin-top:50; 
+width:60%;
+}
+#rrc_1{
+margin-left:150;
+margin-top:70; 
+width:65%;
+}
+#rrc_2{
+margin-left:10; 
+margin-top:70; 
+width:65%;
+}
+#sg_1{
+margin-left:150;
+margin-top:70; 
+width:65%;
+}
+#sg_2{
+margin-left:10;
+margin-top:70; 
+width:68%;
+}
+#hthr_1{
+margin-left:150; 
+margin-top:70; 
+width:65%;
+}
+#hthr_2{
+margin-left:10; 
+margin-top:70; 
+width:65%;
+}
+#fmt{
+width:40%;
+margin-left:350;
+margin-top:50;
+}
+#nav-left{
+width: 50;
+margin-left: 50;
+}
+#nav-right{
+width: 50;
+margin-right: 50;
+}
+@media only screen and (max-width:1300px){
+.special{
+font-size: 50;
+}
+#main{
+height:1200 !important;
+width:1400 !important;
+}
+.body{
+height:1650 !important;
+}
+#open_image{
+margin-left: -175 !important;
+width: 65% !important;
+}
+#carousel{
+top: 80 !important;
+left: 45 !important;
+height: 1500 !important;
+}
+#kfs_1{
+width:45% !important;
+margin-left:350 !important;
+}
+#kfs_2{
+width:45% !important; 
+margin-left:350 !important;
+}
+#sf_1{
+width:45% !important; 
+margin-left:350 !important;
+}
+#sf_2{
+width:45% !important; 
+margin-left:350 !important;
+}
+#kyc_1{
+width:40% !important; 
+margin-left:370 !important;
+}
+#kyc_2{
+width:42% !important; 
+margin-left:350 !important;
+}
+#es_1{
+width:43% !important; 
+margin-left:350 !important;
+}
+#es_2{
+width:43% !important; 
+margin-left:350 !important;
+}
+#kz_1{
+width:42% !important; 
+margin-left:350 !important;
+}
+#kz_2{
+width:42% !important; 
+margin-left:350 !important;
+}
+#mhrp_1{
+margin-top:-30 !important;
+width:43% !important; 
+margin-left:350 !important;
+}
+#mhrp_2{
+margin-top:-70 !important;
+width:40% !important; 
+margin-left:360 !important;
+}
+#rrc_1{
+margin-top:10 !important;
+width:40% !important; 
+margin-left:360 !important;
+}
+#rrc_2{
+margin-top:30 !important;
+width:40% !important; 
+margin-left:360 !important;
+}
+#sg_1{
+margin-top:-30 !important;
+width:43% !important; 
+margin-left:350 !important;
+}
+#sg_2{
+width:43% !important; 
+margin-left:350 !important;
+}
+#hthr_1{
+margin-top:-10 !important;
+width:40% !important; 
+margin-left:360 !important;
+}
+#hthr_2{
+width:40% !important; 
+margin-left:360 !important;
+}
+#fmt{
+margin-left:250 !important;
+width:60% !important;
+}
+#open_image{
+margin-left:-70 !important;
+}
+#rows{
+display: block !important;
+}
+#foot1{
+width: 1500 !important;
+margin-top:500 !important;
+height:400 !important;
+font-size:32 !important;
+line-height:1.8 !important;
+}
+}

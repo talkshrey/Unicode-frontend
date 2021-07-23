@@ -1,0 +1,41 @@
+.content{
+margin:50;
+margin-top:400;
+font-size: 20;
+font-family: montserrat;
+line-height:1.9;
+}
+.text-service{
+position:relative;
+font-size:50;
+left:700;
+top:-230;
+width:500;
+font-family:league-spartan;
+animation-name:text;
+animation-duration:2s;
+}
+@keyframes text{
+from {font-size:25;}
+to {font-size:60;}
+}
+@media only screen and (max-width:1000px){
+.body_cat{
+width:1400 !important;
+height:1800 !important;
+font-size: 60;
+}
+.footer{
+position:relative !important;
+top:1000 !important;
+width:1400 !important;
+height:250 !important;
+}
+.text-service{
+left:700 !important;
+font-size:70 !important;
+}
+.content{
+font-size:30 !important;
+}
+}

@@ -1,0 +1,31 @@
+#blog_content{
+    margin-left: 50;
+    margin-right: 30;
+    margin-top: 100;
+    margin-bottom: 100;
+    font-size: 23;
+    line-height: 2;
+    font-family: montserrat;
+    font-weight: 600;
+}
+.blog_img{
+    margin-left: 200;
+    margin-top: -50;
+    width: 70%;
+    padding: 50;
+}
+@media only screen and (max-width:1000px){
+    .p{
+        font-size: 50;
+    }
+    .footer{
+        position:relative !important;
+        top:300 !important;
+        width:1500 !important;
+        height:250 !important;
+    }
+    #blog_content{
+	font-size: 30 !important;
+	font-weight: 500 !important;
+}
+}

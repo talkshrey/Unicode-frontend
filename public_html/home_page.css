@@ -1,0 +1,106 @@
+.heading{
+position:relative; 
+top:-450; 
+left:650;
+margin-right:700;
+font-size:80;
+font-family:league-spartan;
+font-weight:bold;
+color:#cd1515;
+text-align:center;
+line-height:1.2;
+}
+.sub-head{
+position:relative;
+top:-400;
+left:650;
+margin-right:700;
+font-size:32;
+color:black;
+}
+.fact{
+position:relative;
+left:40;
+top:-950;
+font-size:70;
+color:#cd1515;
+font-family:league-spartan; 
+font-weight:bold;
+}
+#poster-12{
+position:relative;
+top:550;
+left:250;
+}
+#feature{
+color:black; 
+margin-top:-930; 
+margin-left:-75; 
+line-height:3; 
+text-align:left; 
+font-family:montserrat;
+font-size:35;
+} 
+#poster-13{
+position:relative;
+top:350;
+left:500;
+}
+#quote{
+font-size:10;
+margin-left:-350;
+margin-top:-900;
+width:130%;
+}
+.footer{
+margin-top:600;
+height:250;
+font-size:25;
+}
+@media only screen and (max-width:1080px){
+.heading{
+top:-450 !important;
+left:560 !important;
+font-size:96 !important;
+width:700 !important;
+}
+.sub-head{
+left:550 !important;
+top:-375 !important;
+width:750 !important;
+font-size:35 !important;
+}
+.carousel-inner{
+height:1000 !important;
+}
+.fact{
+left:10 !important;
+top:-900 !important;
+font-size:85 !important;
+font-weight:bold !important;
+}
+#quote{
+top:90 !important;
+left:200 !important;
+font-size:60 !important;
+font-weight:bold !important;
+}
+#feature{
+font-size:50 !important;
+font-weight:bold !important;
+}
+.carousel-inner{
+height:1500 !important;
+width:1400 !important;
+}
+#poster-12{
+top:850 !important;
+left:175 !important;
+width:75% !important;
+}
+#poster-13{
+top:650 !important;
+left:500 !important;
+width:30% !important;
+}
+}

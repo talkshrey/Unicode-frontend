@@ -1,0 +1,170 @@
+#quote{
+font-size:30; 
+text-align:center; 
+font-weight:bold; 
+font-family: montserrat;
+}
+#content{
+font-size:30;
+font-family:montserrat;
+line-height:2;
+margin-left: 50;
+margin-right: 50; 
+margin-bottom: 50;
+margin-top: 100; 
+padding: 20;
+}
+#crew{
+position:relative; 
+top:-50; 
+left:500; 
+font-size:45; 
+text-align:center;
+width:500;
+padding:8;
+color:white;
+font-family:league-spartan;
+font-weight:bold;
+background-color:#cd1515;
+border-radius:15px;
+}
+#creator1{
+position:relative;
+top:10;
+width:500;
+height:500;
+left:-100;
+line-height:2;
+font-family:montserrat;
+}
+#creator2{
+position:relative;
+top:-20;
+left:-50;
+width:500;
+height:600;
+line-height:2;
+font-family:montserrat;
+} 
+#container{
+position:relative;
+top:50;
+left:50;
+height:1000;
+width:1200;
+}
+#c1{
+margin-top:-25;
+margin-left:100;
+width:20%;
+border-radius:50%;
+}
+#c2{
+width:65%;
+margin-left:850;
+margin-top:-50;
+border-radius:50%;
+}
+#creator_mona{
+position:relative;
+top:-400;
+left:450;
+width:800;
+font-size:32;
+}
+#name1{
+position:relative;
+top:10;
+left:10;
+font-size:33;
+font-weight:bold;
+font-family:montserrat;
+text-align:center;
+width:400;
+}
+#name2{
+position:relative;
+top:15;
+left:825;
+font-size:32;
+font-weight:bold;
+font-family:montserrat;
+text-align:center;
+width:400;
+}
+#creator_aastha{
+position:relative;
+top:-450;
+left:10;
+width:810;
+font-size:32;
+}
+@media only screen and (max-width:1000px){
+#main{
+height:800 !important;
+width:1000 !important;
+}
+#quote{
+font-size:35 !important;
+}
+#content{
+font-size:35 !important;
+}
+#creator1{
+position:relative !important;
+top:400 !important;
+width:500 !important;
+left:-50 !important;
+}
+#creator2{
+position:relative !important;
+top:-100 !important;
+left:-10 !important;
+} 
+#crew{
+position:relative !important;
+top:-800 !important;
+left:450 !important;
+font-size:45 !important;
+}
+#container{
+position:relative !important;
+top:-1200 !important;
+left:100 !important;
+height:800 !important;
+width:1200 !important;
+}
+#c1{
+margin-top:50 !important;
+margin-left:20 !important;
+width:70% !important;
+}
+#c2{
+width:70% !important;
+margin-left:800 !important;
+margin-top:550 !important;
+}
+#creator_mona{
+position:relative !important;
+left:475 !important;
+top:-450 !important;
+font-size:35 !important;
+}
+#creator_aastha{
+position:relative !important;
+left:20 !important;
+top:-400 !important;
+width:700 !important;
+font-size:35 !important;
+}
+#name2{
+margin-top:40 !important;
+margin-left:-50 !important;
+}
+.footer{
+position:relative !important;
+top:-1000 !important;
+height:250 !important;
+width:1400 !important;
+}
+}
