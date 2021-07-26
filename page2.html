@@ -8,19 +8,23 @@
 <body> 
 	<script src="script.js">
 	</script>
-  <div style="text-align:center"> 
-    <h1> Expense Manager </h1>
-  </div>
+
+	<div style="text-align:center; width: 400px;; height: fit-content; margin-left: 73vh;">
+		<h2 style="font-family: 'Courier New', Courier, monospace;"> EXPENSE MANAGER </h2>
+	</div>
   
-  <div style="text-align:center;">
+  <div class="box" style="height: 250px; margin-left: 250px; margin-top: 100px;">
     <h4> Enter your details </h4> 
-    <h5> Income </h5> <input type="text" id="income" placeholder="Rs. 0.00">
-    <h5> Savings </h5><input type="text" id="savings" placeholder="Rs. 0.00">
+    <h5> Income </h5> <input type="text" id="income" class="field" placeholder="Rs. 0.00">
+    <h5> Savings </h5><input type="text" id="savings" class="field" placeholder="Rs. 0.00">
+  </div>
+  <div class="box" style="height: 350px; margin-top: -275px; margin-left: 750px;">
     <h4> Enter your dataset </h4>
-    <h5> Title </h5> <input type="text" id="title">
-    <h5> Price </h5> <input type="text" id="price" placeholder="Rs. 0.00">
-    <h5> Quantity </h5> <input type="text" id="quant">
+    <h5> Title </h5> <input type="text" id="title" class="field">
+    <h5> Price </h5> <input type="text" id="price" placeholder="Rs. 0.00" class="field">
+    <h5> Quantity </h5> <input type="text" id="quant" class="field">
   </div>
 
-  <div id="tasker"> <a href="index.html"> Go to page 1 </a> </div>
+
+  <div> <a href="index.html" id="tasker" class="button" >  <-- Page 1 </a> </div>
 </body></html>
