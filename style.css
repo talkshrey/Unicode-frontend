@@ -25,10 +25,19 @@ body {
   cursor: pointer;
   border-radius: 16px;
   box-shadow: 1px 1px 1px 1px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#submit1 {
   margin-top: 10px;
   margin-left: 25px;
   margin-right: 25px;
-  font-family: 'Courier New', Courier, monospace;
+}
+
+#sort {
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .field {
@@ -43,11 +52,21 @@ body {
   text-decoration: none;
   color: black;
 }
+
 #tasker {
   text-align:left;
   text-decoration: none;
   color: black;
 }
+
 #table {
   padding: 3vh;
+}
+
+#submit2 {
+  margin-top: 20px;
+}
+
+#add {
+  margin-top: 20px;
 }

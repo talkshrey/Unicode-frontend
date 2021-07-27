@@ -1,3 +1,5 @@
+// Routine manager
+
 var arr_time_comp = [], arr_date_comp = [], arr_comp = [], arr_day_comp = [];
 var arr_time_temp = [], arr_date_temp= [], arr_temp = [];
 var task_name, task_date, task_time;
@@ -72,4 +74,28 @@ function submit() {
   console.log("comp. time: ",arr_time_comp);
   //console.log("temp. time: ",arr_time_temp);
   // console.log("sorter: ",sort(arr_day_comp, arr_time_comp));
+}
+
+// Expense manager
+var income, savings, price, quantity;
+
+function store() {
+  income = parseInt(document.getElementById("income").value);
+  savings = parseInt(document.getElementById("savings").value);
+  console.log("Amount: ", income + savings);
+}
+
+function deduct() {
+  if(income>0) {
+    price = document.getElementById("price").value;
+    quantity = document.getElementById("quant").value;
+    income -= (price*quantity);
+  }
+  else if(savings>0 && income==0) {
+    price = document.getElementById("price").value;
+    quantity = document.getElementById("quant").value;      
+    savings -= (price*quantity);
+  }
+  console.log(income);
+  console.log(savings);
 }
