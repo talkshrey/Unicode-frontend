@@ -28,10 +28,23 @@
     <h5> Price </h5> <input type="text" id="price" placeholder="Rs. 0.00" class="field">
     <h5> Quantity </h5> <input type="text" id="quant" class="field">
     <div>
-      <button type="submit" onclick="deduct()" class="button" id="add"> Add </button> 
+      <button type="button" onclick="table2()" class="button" id="table2"> Show </button>
     </div>  
   </div>
-
-
   <div> <a href="index.html" id="tasker" class="button" >  <-- Page 1 </a> </div>
-</body></html>
+
+  <div class="show2" style="width:30%;">
+	  <table id="table2"style="width: 100%;">
+		  <thead>
+			  <tr>
+				<th>  Current income </th>
+				<th>  Current savings </th>
+			  </tr>			  
+		  </thead>
+		  <tbody id="tbl2" style="width: 100%;">
+		  </tbody>
+	  </table>
+  	</div>
+
+</body>
+</html>

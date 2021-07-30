@@ -1,22 +1,23 @@
 // Routine manager
 
-var arr_time_comp = [], arr_date_comp = [], arr_comp = [], arr_day_comp = [];
-var arr_time_temp = [], arr_date_temp= [], arr_temp = [];
-var task_name, task_date, task_time;
+// var arr_time_comp = [], arr_date_comp = [], arr_comp = [], arr_day_comp = [];
+// var arr_time_temp = [], arr_date_temp= [], arr_temp = [];
 
-function name() {
-  task_name = document.getElementById("name").value;
-}
+// let task_name, task_date, task_time;
 
-function time() {
-  task_time = document.getElementById("time").value;
-}
+// function name() {
+//   task_name = document.getElementById("name").value;
+// }
 
-function date() {
-  task_date = document.getElementById("date").value;
-}
+// function time() {
+//   task_time = document.getElementById("time").value;
+// }
 
-function check() {
+// function date() {
+//   task_date = document.getElementById("date").value;
+// }
+
+/*function check() {
   var tick = document.getElementById("priority");
   if(tick.checked) {
   arr_comp.push(task_name);
@@ -34,10 +35,10 @@ function dayGet() {
   for(var i=0; i<arr_date_comp.length;i++) {
     arr_day_comp.push(parseInt(arr_date_comp[i].split("-")[2]));
   }
-}
+}*/
 
 // main logic of the function
-function sort() {
+/*function sort() {
   dayGet();
   size = arr_day_comp.length;  
   let temp1, temp2;
@@ -55,26 +56,40 @@ function sort() {
     }
   }
   return arr_day_comp, arr_time_comp;
-}
+}*/
 
-function display() {
+/*function display() {
   s = sort();
   console.log(s);
-}
+}*/
 
-function submit() {
-  name();
-  time();
-  date();
-  check();
-  console.log("comp. tasks: ",arr_comp);
+function add_task() {
+  // name();
+  // time();
+  // date();
+  var task_name = document.getElementById("name").value;
+  var task_time = document.getElementById("time").value;
+  var task_date = document.getElementById("date").value;
+  /*console.log("comp. tasks: ",arr_comp);
   //console.log("temp. tasks: ", arr_temp);
   console.log("comp. dates: ", arr_date_comp);
   //console.log("temp. dates: ", arr_date_temp);
   console.log("comp. time: ",arr_time_comp);
   //console.log("temp. time: ",arr_time_temp);
-  // console.log("sorter: ",sort(arr_day_comp, arr_time_comp));
+  // console.log("sorter: ",sort(arr_day_comp, arr_time_comp));*/
+
+  var t = document.getElementById("tbl");
+  var r = t.insertRow();
+  var cell1 = r.insertCell();
+  var cell2 = r.insertCell();
+  var cell3 = r.insertCell();
+  cell1.innerHTML = task_name;
+  cell2.innerHTML = task_date;
+  cell3.innerHTML = task_time;
 }
+
+
+
 
 // Expense manager
 var income, savings, price, quantity;
@@ -85,7 +100,7 @@ function store() {
   console.log("Amount: ", income + savings);
 }
 
-function deduct() {
+function table2() {
   if(income>0) {
     price = document.getElementById("price").value;
     quantity = document.getElementById("quant").value;
@@ -96,6 +111,10 @@ function deduct() {
     quantity = document.getElementById("quant").value;      
     savings -= (price*quantity);
   }
-  console.log(income);
-  console.log(savings);
+  var t2 = document.getElementById("tbl2");
+  var r2 = t2.insertRow();
+  var data1 = r2.insertCell();
+  var data2 = r2.insertCell();
+  data1.innerHTML = income;
+  data2.innerHTML = savings;
 }

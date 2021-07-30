@@ -11,7 +11,7 @@
 <body>
 	<script src="script.js">
 	</script>
-	<div style="text-align:center; width: 400px;; height: fit-content; margin-left: 73vh;">
+	<div style="text-align:center; width: 400px; height: fit-content; margin-left: 73vh;">
 		<h2 style="font-family: 'Courier New', Courier, monospace;"> ROUTINE MANAGER </h2>
 	</div>
 
@@ -22,19 +22,24 @@
 		<h5> Time </h5> <input type="time" id="time" class="field"> 
 		<h5> Compulsory (yes/no) <input type="checkbox" id="priority"> </h5>
 		<button type="button" onclick="display()" class="button" id="sort"> Sort </button> 
-		<button type="submit" onclick="submit()" class="button" id="submit1"> Submit </button>
+		<button type="button" onclick="add_task()" class="button" id="submit1"> Submit </button>
 	</form>
-   
-  <!-- <div class="show">
-	  <table id="table">
-		  <tr>
-			  <td style="width: 5rem; border: 0.1em;"> Name </td>
-			  <td style="width: 5rem; border: 0.1em;"> Task </td>
-			  <td style="width: 5rem; border: 0.1em;"> Date </td>
-		  </tr>
-	  </table>
-  </div> -->
 
-  <div> <a href="page2.html" id="expensor" class="button" > Page 2 --> </a> </div>
+	<div> <a href="page2.html" id="expensor" class="button" > Page 2 --> </a> </div>
+
+  	<div class="show" style="width:30%;">
+	  <table id="table"style="width: 100%;">
+		  <thead>
+			  <tr>
+				<th> Name </th>
+				<th> Date </th>
+				<th> Time </th>
+			  </tr>			  
+		  </thead>
+		  <tbody id="tbl" style="width: 100%;">
+		  </tbody>
+	  </table>
+  	</div>
+
   </body>
 </html>
