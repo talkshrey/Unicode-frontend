@@ -34,6 +34,16 @@ body {
   margin-right: 25px;
 }
 
+.table {
+  margin-left: 500px;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 1px 1px 1px 1px;
+  background-color: aliceblue;
+  border-radius: 16px;
+  text-align: center;
+  padding: 3px;
+}
+
 #sort {
   margin-top: 10px;
   margin-left: 25px;
@@ -57,10 +67,6 @@ body {
   text-align:left;
   text-decoration: none;
   color: black;
-}
-
-#table {
-  padding: 3vh;
 }
 
 #submit2 {
