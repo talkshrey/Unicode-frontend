@@ -3,16 +3,34 @@
         <title> Cowin Api </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+        <style>
+            body {
+                background-color: rgb(198, 252, 144);
+            }
+            .box {
+                text-align: center;
+                background-color: azure;
+                margin: 100 500 100 500;
+                padding: 50px;
+                border-radius: 16px;
+                box-shadow: 50 50 50 50;
+            }
+        </style>
     </head>
     <body>
         <script src="api.js">
         </script>  
-        <div> 
-            <h2> Cowin API </h2>  
+        <div class="box"> 
+            <h2 style="font-family: Arial, Helvetica, sans-serif;"> Cowin API </h2>  
             <form method="get">
-                <label for="" id="pin" > Enter pin code </label>
-                <input type="text">
-                <button type="submit" onclick="getStates()"> Generate otp </button>
+                <div>
+                    <label for="" id="pin" > Enter pin code </label>
+                    <input type="text">
+                </div>
+                <br>
+                <div>
+                    <button type="submit" onclick="getStates()"> Generate otp </button>
+                </div>
             </form>
         </div>      
     </body>
